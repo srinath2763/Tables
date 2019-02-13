@@ -58,7 +58,7 @@ class ViewController: UIViewController, UITableViewDataSource{
         
         tableView.dataSource = self
     }
-//working
+//changed to dev branch
     func update(){
         for i in 1...50 {
             data.append("\(i) * \(parameters) = \(i*parameters)")
